@@ -253,6 +253,9 @@ if user_input:
         - Never invent ingredients or nutrition values.
         - If data is missing, clearly say so.
         - Answer the user's question accurately.
+        - All quantities are as per 100 grams.
+        - Convert user quantities to grams to calculate nutrition values.
+        - If there is no information about the nutrition of a spice ingredient, do not include it in the calculation.
 
         Recipe Data:
         {mongo_context}
